@@ -7,7 +7,7 @@ require 'openid.php';
 
 try {
     // Создаем объект LightOpenID.  Замените 'http://yourdomain.com/' на свой домен!
-    $openid = new LightOpenID('http://dota2statistics.ru/Php/');
+    $openid = new LightOpenID('http://dota2statistics.ru/');
 
     // Если пользователь не аутентифицирован
     if(!$openid->mode) {

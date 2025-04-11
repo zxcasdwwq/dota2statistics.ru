@@ -7,7 +7,38 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<?php
+session_start();
 
+$steam_api_key = '99094D4D82A927A4044EC594692259E4';
+$steam_id = htmlspecialchars($_SESSION['steamid'], ENT_QUOTES, 'UTF-8');
+
+$url = "http://api.steampowered.com/ISteamUser/GetPlayerSummaries/v2/?key=$steam_api_key&steamids=$steam_id";
+
+$ch = curl_init();
+curl_setopt($ch, CURLOPT_URL, $url);
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+$result = curl_exec($ch);
+curl_close($ch);
+
+$data = json_decode($result, true);
+
+if (isset($data['response']['players'][0])) {
+    $player = $data['response']['players'][0];
+    $steam_id = $player['steamid'];
+    $persona_name = $player['personaname'];
+    $avatar_url = $player['avatarfull'];
+    $profile_url = $player['profileurl'];
+
+    echo "<img src=\"$avatar_url\" alt=\"$persona_name\">";
+    echo "<p>Имя: <a href=\"$profile_url\">$persona_name</a></p>";
+
+
+} else {
+    echo "Не удалось получить данные о пользователе.";
+}
+
+?>
   <form action="steamauth\vendor\login.php" method="POST">
   <div class="kjgkj">
     <div class="kjgkj1">
@@ -58,7 +89,8 @@
     <div class="zetus"><img src="images/Group 30.svg" alt=""></div>
     <div class="parus">
       <div class="parus1">
-        <div class="zxc">____</div>
+
+        <div class="azz1"><?php echo "<p ><a  href=\"$profile_url\">$persona_name</a></p>";?></div>
         <div class="zxc1">____</div>
         <div class="zxc2"></div>
       </div>

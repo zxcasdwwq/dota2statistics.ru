@@ -42,7 +42,7 @@ if (!isset($_GET['openid_mode'])) {
     $_SESSION['steamid'] = $steamID64;
 
     // Перенаправляем пользователя на главную страницу (или куда нужно)
-    header('Location: index.php');  // Замените на свой URL
+    header('Location: /index.php');  // Замените на свой URL
     exit;
 
 }

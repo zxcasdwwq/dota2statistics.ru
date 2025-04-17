@@ -37,7 +37,7 @@ if (isset($data['response']['players'][0])) {
     echo "Пользователь не найден.";
 }
 } else {
-    echo "Не удалось получить данные о пользователе.";
+    echo "Не удалось получить данные  о пользователе.";
 }
 function convertSteamID64ToSteamID32($steamID64) {
   $steamID32 = bcsub($steamID64, '76561197960265728');

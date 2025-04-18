@@ -8,27 +8,21 @@
 .text1 {
   color: rgb(255, 255, 255);
   font-family: Montserrat;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 700;
   line-height: 17px;  
 }
 
 .kjgkj {
 position: relative;
-width: 1920px;
+width: 1905px;
 height: 1644px;
 background: rgb(2, 0, 47);
 }
 
-.aName {
-  padding: 12px, 10px;
-  background-color: green;
-  color: yellow;
-}
-
 .kjgkj1 {
 position: absolute;
-width: 1920px;
+width: 1905px;
 height: 84px;
 top: 0;
 background: rgb(44, 45, 80);
@@ -130,6 +124,12 @@ width: 37px;
 height: 45px;
 color: white;
 right: 20px;
+}
+
+.zix2 {
+  width: 5000px;
+  height: 200px;
+  font-size: 9px;
 }
 
 .kjgkj2 {
@@ -421,15 +421,18 @@ border-radius: 10px;
 
 .azz1 {
 position: absolute;
-width: 83.5px;
+width: 138.5px;
 height: 24px;
 z-index: 410;
-color: rgb(255, 0, 0);
+color: rgb(169, 169, 169);
 font-family: Inter;
-font-size: 20px;
+font-size: 12px;
 font-weight: 700;
 line-height: 24px;
 padding-left: 90px;
+text-decoration: none;
+z-index: 9999999;
+top: 2px;
 }
 
 .zxc1 {
@@ -439,7 +442,7 @@ height: 19px;
 z-index: 410;
 color: rgb(169, 169, 169);
 font-family: Inter;
-font-size: 14px;
+font-size: 12px;
 font-weight: 700;
 line-height: 19px;
 letter-spacing: 0%;
@@ -459,6 +462,14 @@ z-index: 410;
 border-radius: 12525px;
 margin-left: 40px;
 margin-top: 11px;
+}
+
+.zxc2 img {
+  width: 44.03px;
+height: 42.71px;
+  box-sizing: border-box;
+  border: 1px solid rgb(66, 66, 104);
+  border-radius: 12525px;
 }
 
 .zxc3 {
@@ -553,7 +564,7 @@ font-weight: 700;
 line-height: 39px;
 letter-spacing: 0%;
 margin-top: 25px;
-margin-left: 80px;
+margin-left: 70px;
 }
 
 .zc {
@@ -743,6 +754,7 @@ color: white;
   position: absolute;
   left: 00px;
   top: 1155px;
+  width: 1905px;
 }
 
 .footer2 {

@@ -20,6 +20,9 @@ curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 $result = curl_exec($ch);
 curl_close($ch);
 $data = json_decode($result, true);
+
+
+
 if (isset($data['response']['players'][0])) {
     $player = $data['response']['players'][0];
     $steam_id = $player['steamid'];
@@ -60,6 +63,14 @@ if ($matches === NULL) {
 $wins = 0;
 $losses = 0;
 
+$button_text = 'Войти'; // Значение по умолчанию
+
+// Здесь логика для определения, авторизован ли пользователь
+// Например, проверка сессии
+if (isset($_SESSION['account_id'])) {
+  $button_text = 'Выйти';
+}
+
 foreach ($matches as $match) {
   $isRadiant = $match['player_slot'] < 128;  // 0-127 Radiant, 128-255 Dire
   $radiant_win = $match['radiant_win'];
@@ -74,8 +85,6 @@ foreach ($matches as $match) {
 $winrates = ($wins + $losses > 0) ? round(($wins / ($wins + $losses)) * 100, 2) : 0;
 // 1. SteamID32 пользователя (OpenDota Account ID)
 $account_id = $steamID32; // Замените на настоящий account_id
-
-echo $steamID32;
 
 // 2. URL для получения истории матчей
 $url = "https://api.opendota.com/api/players/" . $account_id . "/matches";
@@ -124,6 +133,15 @@ foreach ($matches as $match) {
         }
     }
 }
+
+//Тута войти
+if (isset($hero_stats[$hero_id])){
+  $okis = "Выйти";
+}
+else {
+  $okis = "Войти";
+}
+//Тута войти
 
 // 6. Сортировка героев по количеству игр (в порядке убывания)
 uasort($hero_stats, function($a, $b) { // Используем uasort для сортировки массива со сложной структурой
@@ -212,7 +230,7 @@ function getHeroName($hero_id) {
       <div class="logotip3">Test.ru</div>
       <!-- <div class="logout"></div> -->
       
-      <input class="logout2" type="submit" name="Ok" value="Login">
+      <input class="logout2" type="submit" name="Ok" value="<?php echo $okis; ?>">
       <div class="light">
         <div class="light2"><img src="images/Vectortssrtsrrtsrs.svg" alt=""></div>
       </div>

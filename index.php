@@ -255,10 +255,10 @@ function getHeroName($hero_id) {
       <div class="pn1"><img src="images/META.svg" alt=""></div>
       <div class="pn2 text1">META</div>
     </div>
-    <div class="mn">
+    <a href="lanes.php"><div class="mn">
       <div class="mn1"><img src="images/LANES.svg" alt=""></div>
       <div class="mn2 text1">LANES</div>
-    </div>
+    </div></a>
     <div class="nn">
       <div class="nn1"><img src="images/LINKS.svg" alt=""></div>
       <div class="nn2 text1">LINKS</div>

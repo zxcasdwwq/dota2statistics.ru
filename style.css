@@ -771,3 +771,47 @@ color: white;
   border-radius: 4000px;
   font-size: 40px;
 }
+
+.zpr {
+  width: 1720px;
+  height:800px;
+  display: flex;
+  left: 90px;
+  top: 200px;
+  position: absolute;
+}
+
+.capysta {
+  display: flex;
+}
+
+.rtr1 {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+}
+
+.rtr {
+  display: flex;
+  width: 1420px;
+  height: 50px;
+  position: absolute;
+  justify-content: space-around;
+  left: 150px;
+  top: 100px;
+}
+
+.home2 {
+  display: flex;
+  width: 150px;
+  background-color: #424268;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+.qq {
+  color: white;
+  margin-left: 30px;
+  margin-top: 6px;
+}

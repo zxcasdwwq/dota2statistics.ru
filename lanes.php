@@ -4,7 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style2.css">
+
 </head>
 <body>
   
@@ -24,30 +25,36 @@
     </div>
     <div class="rtr1">
       <div class="rtr">
-        <a href="index.php" class="home2"><div role="button" aria-label="Описание кнопки"  >
-          <div class=""><img src="images/Vector1.svg" alt=""></div>
-          <div class="qq text1">HOME</div>
-        </div></a>
-        <div class="home2">
-          <div class=""><img src="images/players.svg" alt=""></div>
-          <div class="qq text1">PLAYERS</div>
-        </div>
-        <div class="home2">
-          <div class=""><img src="images/META.svg" alt=""></div>
-          <div class="qq text1">META</div>
-        </div>
-        <div class="home2">
-          <div class=""><img src="images/LANES.svg" alt=""></div>
-          <div class="qq text1">LANES</div>
-        </div>
-        <div class="home2">
-          <div class=""><img src="images/LINKS.svg" alt=""></div>
-          <div class="qq text1">LINKS</div>
-        </div>
-        <div class="home2">
-          <div class=""><img src="images/LIVE.svg" alt=""></div>
-          <div class="qq text1">LIVE</div>
-        </div>
+        <a href="index.php" class="home2" >
+          <div role="button">
+              <div class="text1"><img src="images/Vector1.svg" >HOME</div>
+          </div>
+        </a>
+        <a href="index.php" class="home2" >
+          <div role="button">
+              <div class="text1"><img src="images/players.svg" >PLAYERS</div>
+          </div>
+        </a>
+        <a href="index.php" class="home2" >
+          <div role="button">
+              <div class="text1"><img src="images/META.svg" >META</div>
+          </div>
+        </a>
+        <a href="lanes.php" class="home2" >
+          <div role="button">
+              <div class="text1"><img src="images/LANES.svg" >LANES</div>
+          </div>
+        </a>
+        <a href="lanes.php" class="home2" >
+          <div role="button">
+              <div class="text1"><img src="images/LINKS.svg" >LINKS</div>
+          </div>
+        </a>
+        <a href="lanes.php" class="home2" >
+          <div role="button">
+              <div class="text1"><img src="images/LIVE.svg" >LIVE</div>
+          </div>
+        </a>
       </div>
     </div>
   <img class="zpr" src="images/51ab27fd4b5745078f7b232bf85d3298.png" alt="">

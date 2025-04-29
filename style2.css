@@ -1,0 +1,173 @@
+.text1 {
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 17px;
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+}
+
+.kjgkj {
+position: relative;
+width: 1905px;
+height: 1644px;
+background: rgb(2, 0, 47);
+}
+
+.kjgkj1 {
+width: 1905px;
+height: 84px;
+top: 0;
+background: rgb(44, 45, 80);
+}
+
+.logotip {
+position: absolute;
+width: 76px;
+height: 51.85px;
+left: 240px;
+top: 15.04px;
+background: rgb(1, 0, 50);
+border-radius: 1000px;
+}
+
+.logotip2 {
+position: absolute;
+width: 66.62px;
+height: 45.63px;
+left: 244.69px;
+top: 18.15px;
+background-color: white;
+border-radius: 1000px;
+}
+
+.logotip3 {
+position: absolute;
+width: 56.3px;
+height: 38.37px;
+left: 255.07px;
+top: 30px;
+color: rgb(0, 0, 0);
+font-family: Inria Sans;
+font-size: 14.52px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.logout {
+position: absolute;
+width: 101px;
+height: 40px;
+left: 527px;
+display: flex;
+align-items: center;
+justify-content: center;
+top: 21px;
+border-radius: 8px;
+background: rgb(1, 0, 50);
+}
+
+.logout2 {
+position: absolute;
+width: 101px;
+height: 40px;
+left: 548px;
+top: 32px;
+color: rgb(255, 255, 255);
+font-family: Inria Sans;
+font-size: 16px;
+border-radius: 5em;
+
+background: transparent;
+z-index: 6;
+}
+.light {
+position: absolute;
+width: 40px;
+height: 40px;
+left: 668px;
+top: 21px;
+background: rgb(1, 0, 50);
+border-radius: 1000px;
+}
+
+.light2 {
+position: absolute;
+width: 29.53px;
+height: 27.08px;
+left: 4.7px;
+top: 4.5px;
+}
+
+.poisk {
+position: absolute;
+width: 755px;
+height: 40px;
+left: 919px;
+top: 21px;
+border-radius: 48px;
+background: rgb(1, 0, 50);
+}
+
+.poisk2 {
+position: absolute;
+width: 37px;
+height: 45px;
+color: white;
+right: 20px;
+}
+
+.kjgkj2 {
+position: relative;
+top: 172px;
+left: 240px;
+box-sizing: border-box;
+border-radius: 7.68px;
+backdrop-filter: blur(24.1px);
+background: rgba(43, 43, 77, 0.1);
+width: 281.4px;
+height: 582px;
+};
+
+.rtr1 {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+}
+
+.rtr {
+  display: flex;
+  width: 1420px;
+  height: 50px;
+  position: absolute;
+  justify-content: space-around;
+  left: 250px;
+  top: 100px;
+}
+
+.home2 {
+  display: flex;
+  width: 150px;
+  background-color: #424268;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+.qq {
+  color: white;
+}
+
+a{
+  color: white;
+}
+
+.zpr {
+  margin-left: 150px;
+}

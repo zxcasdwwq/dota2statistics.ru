@@ -249,7 +249,7 @@ function getHeroName($hero_id) {
     </div>
     <div class="zn">
       <div class="zn1"><img src="images/players.svg" alt=""></div>
-      <div class="zn2 text1">PLAYERS</div>
+      <div class="zn2 text1">800</div>
     </div>
     <div class="pn">
       <div class="pn1"><img src="images/META.svg" alt=""></div>
@@ -260,12 +260,8 @@ function getHeroName($hero_id) {
       <div class="mn2 text1">LANES</div>
     </div></a>
     <div class="nn">
-      <div class="nn1"><img src="images/LINKS.svg" alt=""></div>
-      <div class="nn2 text1">LINKS</div>
-    </div>
-    <div class="xn">
-      <div class="xn1"><img src="images/LIVE.svg" alt=""></div>
-      <div class="xn2 text1">LIVE</div>
+      <div class="nn1"><img src="images/players.svg" alt=""></div>
+      <div class="nn2 text1">PLAYERS</div>
     </div>
     <div class="big"></div>
     <div class="big1"></div>

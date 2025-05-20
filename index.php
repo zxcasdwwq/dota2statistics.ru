@@ -9,7 +9,6 @@
 <body>
 <?php
 session_start();
-
 $steam_api_key = '99094D4D82A927A4044EC594692259E4';
 $steam_id = htmlspecialchars($_SESSION['steamid'], ENT_QUOTES, 'UTF-8');
 $steamID32 = convertSteamID64ToSteamID32($steam_id);
@@ -239,30 +238,30 @@ function getHeroName($hero_id) {
       </div>
     </div>
     <div class="z1">
-      
+
     </div>
-    <div class="zet1"></div>
+    <div class="zet1" alt style="top: 111px;"></div>
     <div class="zet"></div>
     <div class="kn">
       <div class="kn1"><img src="images/Vector1.svg" alt=""></div>
       <div class="kn2 text1">HOME</div>
     </div>
-    <div class="zn">
-      <div class="zn1"><img src="images/players.svg" alt=""></div>
-      <div class="zn2 text1">800</div>
-    </div>
-    <div class="pn">
-      <div class="pn1"><img src="images/META.svg" alt=""></div>
+     <a href="https://ru.dotabuff.com/players"><div class="zn">
+      <div class="zn1"><img src="images/LANES.svg" alt=""></div>
+      <div class="zn2 text1">PLAYERS</div>
+    </div></a>
+        <a href="https://ru.dotabuff.com/heroes"><div class="pn">
+      <div class="pn1"><img src="images/LANES.svg" alt=""></div>
       <div class="pn2 text1">META</div>
-    </div>
+    </div></a>
     <a href="lanes.php"><div class="mn">
       <div class="mn1"><img src="images/LANES.svg" alt=""></div>
       <div class="mn2 text1">LANES</div>
     </div></a>
-    <div class="nn">
-      <div class="nn1"><img src="images/players.svg" alt=""></div>
-      <div class="nn2 text1">PLAYERS</div>
-    </div>
+    <a href="https://www.twitch.tv/directory/category/dota-2"><div class="nn">
+      <div class="nn1"><img src="images/LANES.svg" alt=""></div>
+      <div class="nn2 text1">LIVE</div>
+    </div></a>
     <div class="big"></div>
     <div class="big1"></div>
     <div class="zetus"><img src="images/Group 30.svg" alt=""></div>
@@ -297,7 +296,7 @@ function getHeroName($hero_id) {
         Animations!
       </div>
     </div>
-    <section class="er">
+    <section class="er" alt style="top: 400px; ">
       <div class="er1">
         <div class="er2 text1">Hero</div>
         <div class="er2 text1">Winrate</div>

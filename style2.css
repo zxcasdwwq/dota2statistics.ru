@@ -171,3 +171,26 @@ a{
 .zpr {
   margin-left: 150px;
 }
+
+.footer1 {
+  display: flex;
+  position: absolute;
+  left: 00px;
+  top: 1155px;
+  width: 1905px;
+}
+
+.footer2 {
+  display: flex;
+  position: absolute;
+  width: 419px;
+  height: 204px;
+  background-color: #fff;
+  color: black;
+  justify-content: center;
+  align-items: center;
+  top: 1255px;
+  left: 750px;
+  border-radius: 4000px;
+  font-size: 40px;
+}

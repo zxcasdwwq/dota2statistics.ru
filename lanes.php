@@ -30,34 +30,39 @@
               <div class="text1"><img src="images/Vector1.svg" >HOME</div>
           </div>
         </a>
-        <a href="index.php" class="home2" >
+        <a href="https://ru.dotabuff.com/players" class="home2" >
           <div role="button">
               <div class="text1"><img src="images/players.svg" >PLAYERS</div>
           </div>
         </a>
-        <a href="index.php" class="home2" >
+        <a href="https://ru.dotabuff.com/heroes" class="home2" >
           <div role="button">
               <div class="text1"><img src="images/META.svg" >META</div>
           </div>
         </a>
-        <a href="lanes.php" class="home2" >
-          <div role="button">
-              <div class="text1"><img src="images/LANES.svg" >LANES</div>
-          </div>
-        </a>
-        <a href="lanes.php" class="home2" >
-          <div role="button">
-              <div class="text1"><img src="images/LINKS.svg" >LINKS</div>
-          </div>
-        </a>
-        <a href="lanes.php" class="home2" >
+        <a href="https://www.twitch.tv/directory/category/dota-2" class="home2" >
           <div role="button">
               <div class="text1"><img src="images/LIVE.svg" >LIVE</div>
           </div>
         </a>
       </div>
     </div>
-  <img class="zpr" src="images/51ab27fd4b5745078f7b232bf85d3298.png" alt="">
+  <img class="zpr" src="images/51ab27fd4b5745078f7b232bf85d3298.png">
+   <div class="footer">
+      <img class="footer1" src="images/uss.svg" alt style="width: 1905px; height: 746px; ">
+      <div class="footer2 text1" alt style="  display: flex;
+  position: absolute;
+  width: 200px;
+  height: 134px;
+  background-color: #fff;
+  color: black;
+  justify-content: center;
+  align-items: center;
+  top: 1255px;
+  left: 850px;
+  border-radius: 4000px;
+  font-size: 40px;">TEST.RU</div>
+    </div>
   
 </body>
 </html>
